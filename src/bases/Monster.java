@@ -22,10 +22,6 @@ public abstract class Monster extends Living {
 		// 相手のHPをダメージ値だけ減らす
 
    	     target.hp -= sum ; 
-		
-		// 自分の攻撃力を1だけ減らす
-
-		 --this.offensive ;
 		   
 		// コンソールにステータスを表示
 
